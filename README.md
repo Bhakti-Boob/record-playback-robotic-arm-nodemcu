@@ -7,6 +7,17 @@ This project implements pick‑and‑place robotic arm driven by four servos and
 - Potentiometer mode: four pots directly drive the joints, their movements are sampled and stored, then replayed on command via the serial monitor
 Typical use cases include demonstrating basic robotics, motion programming and human‑in‑the‑loop teaching of repeated pick‑and‑place tasks.
 
+<table align="center">
+  <tr>
+    <td style="padding-right: 10px;">
+      <video src="https://github.com/user-attachments/assets/1b2b88c4-d681-4413-a9db-88edba212600" width="500" controls></video>
+    </td>
+    <td style="padding-left: 10px;">
+      <img src="https://github.com/user-attachments/assets/f65e616c-cac7-4422-b916-3afae1207746" width="420" alt="Robot arm" />
+    </td>
+  </tr>
+</table>
+
 # Features
 - 4‑axis servo robotic arm (base, shoulder, elbow 1, elbow 2 and gripper) driven by `ESP32Servo`
 - Record & playback of sequences using a compact integer encoding (`servo_id * 1000 + angle`) in an in‑memory array
