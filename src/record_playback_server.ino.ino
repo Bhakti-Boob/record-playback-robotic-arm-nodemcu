@@ -1,4 +1,4 @@
-// Record & Playback Robotic Arm + Web UI. Serves a web page at 192.168.4.1 with sliders for each servo, Record/Play/Clear.
+// Record & Playback Robotic Arm + Web UI. Serves a web page at 192.168.4.1 with sliders for each servo, Record and Play controls
 
 #include <WiFi.h>
 #include <WebServer.h>
