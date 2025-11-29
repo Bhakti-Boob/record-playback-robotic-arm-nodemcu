@@ -11,10 +11,10 @@ const char* ap_pass = "123456789";
 WebServer server(80);
 
 // Servo & pins 
-static const int servoPin0 = 14; // Base
-static const int servoPin1 = 27; // Shoulder
-static const int servoPin2 = 25; // Elbow1
-static const int servoPin3 = 32; // Elbow2 
+static const int servoPin0 = 32; // Base
+static const int servoPin1 = 25; // Shoulder
+static const int servoPin2 = 27; // Elbow1
+static const int servoPin3 = 14; // Elbow2 
 
 Servo Servo_0;
 Servo Servo_1;
