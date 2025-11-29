@@ -32,8 +32,9 @@ Typical use cases include demonstrating basic robotics, motion programming and h
 
 # Hardware and components used
 - ESP32 / NodeMCU board with Wi‑Fi
+- 3D printed robotic arm
 - 4 × servo motors for base and joints (e.g. MG995 / SG90)
-- Option A (Web UI):  
+- Option A (Server UI):  
   - External 5 V supply for servos  
 - Option B (Pots):  
   - 4 × potentiometers (one per joint) to generate position commands
