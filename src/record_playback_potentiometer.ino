@@ -8,14 +8,14 @@
 
 #include <ESP32Servo.h>   
 
-static const int servoPin0         = 14; // servo 0 
-static const int potentiometerPin0 = 12; // pot for servo 0 
-static const int servoPin1         = 27; // servo 1
-static const int potentiometerPin1 = 26; // pot for servo 1
-static const int servoPin2         = 25; // servo 2
-static const int potentiometerPin2 = 33; // pot for servo 2
-static const int servoPin3         = 32; // servo 3
-static const int potentiometerPin3 = 35; // pot for servo 3
+static const int servoPin0         = 14; // Elbow 2 
+static const int potentiometerPin0 = 12; // pot for Elbow 2  
+static const int servoPin1         = 26; // Elbow 1
+static const int potentiometerPin1 = 27; // pot for Elbow 1 
+static const int servoPin2         = 33; // Shoulder
+static const int potentiometerPin2 = 25; // pot for Shoulder
+static const int servoPin3         = 35; // Base
+static const int potentiometerPin3 = 32; // pot for Base
 
 // Declare Servo objects 
 Servo Servo_0;
